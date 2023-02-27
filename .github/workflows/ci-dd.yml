@@ -1,0 +1,26 @@
+name: CI/CD workflow
+on:
+  push:
+    branches:
+      - trunk
+jobs:
+  deploy:
+  runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      - name: Setup node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+      - name: Install dependencies
+        run: nmp ci
+      - name: Formatting and Linting
+        run: |
+          npm run format:check
+          npm run lint
+          npm run tsc:check
+      - name: Tests
+        run: nmp test
+         
+
