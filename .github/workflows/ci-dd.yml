@@ -5,7 +5,7 @@ on:
       - trunk
 jobs:
   deploy:
-  runs-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
@@ -22,5 +22,3 @@ jobs:
           npm run tsc:check
       - name: Tests
         run: nmp test
-         
-
