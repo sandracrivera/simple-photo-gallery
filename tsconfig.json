@@ -3,7 +3,7 @@
     "target": "ESNext",
     "lib": ["DOM", "DOM.Iterable", "ESNext"],
     "jsx": "react-jsx",
-    "module": "ESNext",
+    "module": "commonjs",
     "moduleResolution": "node",
     "baseUrl": "./src",
     "paths": {
@@ -25,7 +25,7 @@
     "noFallthroughCasesInSwitch": true,
     "skipLibCheck": true
   },
-  "include": ["src", "custom.d.ts", "src/index.tsx"],
+  "include": ["src", "custom.d.ts", "src/index.tsx", "jest_setup_test.js"],
   "exclude": ["node_modules", "build"],
   "plugins": []
 }

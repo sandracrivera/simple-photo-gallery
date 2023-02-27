@@ -19,6 +19,7 @@ const Photo: React.FC<photoProps> = ({
           console.log('inside')
           if (onClick) onClick(id)
         }}
+        loading='lazy'
       />
     </Figure>
   )
