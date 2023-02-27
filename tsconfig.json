@@ -26,6 +26,6 @@
     "skipLibCheck": true
   },
   "include": ["src", "custom.d.ts", "src/index.tsx", "jest_setup_test.js"],
-  "exclude": ["node_modules", "build"],
+  "exclude": ["node_modules", "dist"],
   "plugins": []
 }
