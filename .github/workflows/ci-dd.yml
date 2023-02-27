@@ -29,6 +29,8 @@ jobs:
           npm run tsc:check
       - name: Tests
         run: npm test
+      - name: Build
+        run: npm run build
       - name: Deploy to Netlify
         uses: netlify/actions/cli@master
         with:
