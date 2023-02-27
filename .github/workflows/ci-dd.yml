@@ -28,4 +28,11 @@ jobs:
           npm run lint
           npm run tsc:check
       - name: Tests
-        run: nmp test
+        run: npm test
+      - name: Deploy to Netlify
+        uses: netlify/actions/cli@master
+        with:
+          args: deploy --dir=dist
+        env:
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
