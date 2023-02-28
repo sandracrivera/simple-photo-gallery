@@ -1371,6 +1371,11 @@
   resolved "https://registry.yarnpkg.com/@leichtgewicht/ip-codec/-/ip-codec-2.0.4.tgz#b2ac626d6cb9c8718ab459166d4bb405b8ffa78b"
   integrity sha512-Hcv+nVC0kZnQ3tD9GVu5xSMR4VVYOteQIr/hwFPVEvPdlXqgGEuRjiheChHgdM+JyqdgNcmzZOX/tnl0JOiI7A==
 
+"@mierak/react-virtualized-grid@^0.0.5-ALPHA":
+  version "0.0.5-ALPHA"
+  resolved "https://registry.yarnpkg.com/@mierak/react-virtualized-grid/-/react-virtualized-grid-0.0.5-ALPHA.tgz#e5b8cc3643f3d2f549efbc205908b7e9c4715ef8"
+  integrity sha512-K7TVmRooNKsfN/69dUPJzkKRFE9e9ZUrQclxxHn0Tok5EcDIhz95CK5YcNbWdNjlprf0WGFGJ9o6cZFZ7nK/6g==
+
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
   resolved "https://registry.yarnpkg.com/@nodelib/fs.scandir/-/fs.scandir-2.1.5.tgz#7619c2eb21b25483f6d167548b4cfd5a7488c3d5"

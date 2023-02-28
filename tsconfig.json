@@ -9,7 +9,7 @@
     "paths": {
       "@src/*": ["src/*"]
     },
-    "types": ["node"],
+    "types": ["node", "jest"],
     "resolveJsonModule": true,
 
     "allowJs": true,

@@ -24,7 +24,7 @@ export function formatDate(dateString: string) {
 }
 
 export function sortPhotosByDate(photos: PhotoInfo[]): PhotoInfo[] {
-  return photos.sort(function (a: PhotoInfo, b: PhotoInfo) {
+  return [...photos].sort(function (a: PhotoInfo, b: PhotoInfo) {
     return new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime()
   })
 }

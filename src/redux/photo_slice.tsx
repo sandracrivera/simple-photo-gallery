@@ -4,7 +4,7 @@ import { createSlice, PayloadAction } from '@reduxjs/toolkit'
 import { PhotoInfo } from 'redux/types'
 import { sortPhotosByDate } from 'utilities/utils'
 
-const initialState: InitialState = {
+export const initialState: InitialState = {
   photos: [],
   currentPhoto: undefined,
 }
